@@ -1,0 +1,60 @@
+/*************Responsive Styles*****************/
+/***************iPhone Portrait**************/
+@media only screen and (max-width: 479px) and (min-width: 320px){
+    .service-sec .service-col{
+        grid-template-columns: 1fr;
+   }
+}
+/**********************iPhone Landscape*************/
+@media only screen and (max-width: 767px) and (min-width: 480px){
+    .service-sec .service-col{
+        grid-template-columns: 1fr 1fr;
+   }
+}
+/*************************iPad Portrait***************/
+@media only screen and (max-width: 985px) and (min-width: 768px){
+    .service-sec .service-col{
+        grid-template-columns: 1fr 1fr 1fr;
+   }
+    .container{
+        width: 90%;
+        max-width: 90%;
+        margin-left: auto !important;
+        margin: inherit ;
+   }
+    .welcome-sec .col-sm-12{
+        margin-bottom: 20px;
+   }
+}
+/**************iPad Landscape***************/
+@media only screen and ( max-width: 1024px ) and (min-width: 986px){
+    .container{
+        width: 90%;
+        max-width: 90%;
+        margin-left: auto !important;
+        margin: inherit ;
+   }
+}
+@media only screen and ( max-width: 1181px ) and (min-width: 1025px){
+    .container{
+        width: 90%;
+        max-width: 90%;
+        margin-left: auto !important;
+        margin: inherit ;
+   }
+}
+/*******************************************/
+@media only screen and (max-width: 767px) and (min-width: 320px){
+    .container{
+        width: 80%;
+        max-width: 80%;
+        margin-left: auto !important;
+        margin: inherit ;
+   }
+    .welcome-col{
+        min-height: 350px;
+   }
+    .welcome-sec .col-sm-12{
+        margin-bottom: 20px;
+   }
+}
